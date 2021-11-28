@@ -20,7 +20,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .more-info {
     text-align: center;
@@ -46,21 +46,21 @@
 
 #incompleted-tasks,
 #completed-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .show-mode,
-.edit-mode{
+.edit-mode {
   list-style:none;
 }
 
-input{
-  outline:none;
+input {
+  outline: none;
 }
 
 button {
-  outline:none;
+  outline: none;
   background: none;
   border: 0px;
   color: #888;
@@ -166,14 +166,14 @@ input[type="text"]:focus {
 /* Edit Task */
 .show-mode input[type=text],
 .show-mode input[type=text] {
-  display:none
+  display: none
 }
 
 .edit-mode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .task {
-  display:none;
+  display: none;
 }
