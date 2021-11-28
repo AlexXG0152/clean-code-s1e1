@@ -37,7 +37,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-row-wrapper {
@@ -144,7 +144,7 @@ input[type="text"]:focus {
 
 .show-mode > input[type="text"],
 .edit-mode > input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 .delete img {
@@ -159,19 +159,19 @@ input[type="text"]:focus {
 
 /* Completed */
 #completed-tasks .task {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .show-mode input[type=text],
 .show-mode input[type=text] {
-  display: none
+  display: none;
 }
 
 .edit-mode input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .task {
