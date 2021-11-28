@@ -4,49 +4,61 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .more-info {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .more-info img {
   width: 100%;
 }
+
 .more-info .link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
+
   .more-info {
     text-align: center;
   }
+
 }
+
 .to-do-screen {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .task-row-wrapper {
   display: flex;
 }
+
 #incompleted-tasks,
 #completed-tasks {
   margin:0;
   padding: 0px;
 }
+
 .show-mode,
 .edit-mode{
   list-style:none;
 }
+
 input{
   outline:none;
 }
+
 button {
   outline:none;
   background: none;
@@ -57,9 +69,11 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .heading,
 .new-task {
@@ -71,6 +85,7 @@ button:hover {
   margin: 0;
   text-transform: uppercase;
 }
+
 input[type="text"] {
   margin: 0;
   font-size: 18px;
@@ -83,6 +98,7 @@ input[type="text"] {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 input[type="text"]:focus {
   color: #333;
 }
@@ -92,6 +108,7 @@ input[type="text"]:focus {
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task-field {
   width: 318px;
 }
@@ -102,11 +119,11 @@ input[type="text"]:focus {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .show-mode > * ,
 .edit-mode > * {
   vertical-align: middle;
@@ -116,6 +133,7 @@ input[type="text"]:focus {
 .edit-mode > input[type="checkbox"] {
   margin: 0 10px;
 }
+
 .show-mode > .task,
 .edit-mode > .task {
   padding-left: 10px;
@@ -123,15 +141,18 @@ input[type="text"]:focus {
   font-size: 18px;
   width: 226px;
 }
+
 .show-mode > input[type="text"],
 .edit-mode > input[type="text"] {
   width: 226px
 }
+
 .delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete img:hover {
   transform: rotateZ(0);
 }
